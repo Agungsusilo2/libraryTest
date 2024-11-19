@@ -1,0 +1,16 @@
+{
+    "name": "library/test",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Library\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agungsusilo2",
+            "email": "agungsusilo683@gmail.com"
+        }
+    ],
+    "require": {}
+}
