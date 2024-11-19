@@ -11,8 +11,8 @@ class Seller
         return $this->name;
     }
 
-    public function sayHello()
+    public function sayHello(string $name = "Guest"):string
     {
-        echo "Hello {$this->name}".PHP_EOL;
+        return "Hello {$name}, my name is {$this->name}";
     }
 }
